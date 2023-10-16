@@ -1,0 +1,112 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Top\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ubuntu;C:\Users\Top\Python39;C:\Users\Top\Python39\Scripts;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Top\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Top\AppData\Local\Programs\Python\Python39\;C:\Users\Top\.local\share\solana\install\active_release\bin;C:\Users\Top\.cargo\bin;C:\Users\Top\AppData\Local\Microsoft\WindowsApps;C:\Users\Top\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Top\AppData\Local\Programs\Python\Python39;C:\Users\Top\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Top\AppData\Roaming\npm;C:\Users\Top\.dotnet\tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui/lab/-/lab-5.0.0-alpha.65.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Top\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141512:19)
+      at Object.onceWrapper (node:events:509:28)
+      at ClientRequest.emit (node:events:390:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:761:9)
+      at Object.onceWrapper (node:events:509:28)
+      at TLSSocket.emit (node:events:402:35)
+      at TLSSocket.Socket._onTimeout (node:net:486:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@bonfida/token-vesting": "^0.0.8",
+      "@craco/craco": "^5.9.0",
+      "@emotion/react": "^11.5.0",
+      "@emotion/styled": "^11.3.0",
+      "@headlessui/react": "^1.4.1",
+      "@mui/lab": "^5.0.0-alpha.57",
+      "@mui/material": "^5.0.6",
+      "@mui/styled-engine": "^5.2.0",
+      "@project-serum/anchor": "^0.18.2",
+      "@project-serum/sol-wallet-adapter": "^0.2.5",
+      "@solana/spl-token": "^0.1.8",
+      "@solana/spl-token-registry": "^0.2.275",
+      "@solana/wallet-adapter-base": "^0.7.0",
+      "@solana/wallet-adapter-react": "^0.13.1",
+      "@solana/wallet-adapter-react-ui": "^0.6.1",
+      "@solana/wallet-adapter-wallets": "^0.11.3",
+      "@solana/wallet-base": "0.0.1",
+      "@solana/web3.js": "^1.31.0",
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^11.2.7",
+      "@testing-library/user-event": "^12.8.3",
+      "@types/jest": "^26.0.24",
+      "@types/react": "^17.0.22",
+      "@types/react-dom": "^17.0.9",
+      "bootstrap": "^5.1.1",
+      "borsh": "^0.6.0",
+      "bs58": "^4.0.1",
+      "buffer": "^6.0.3",
+      "buffer-layout": "^1.2.2",
+      "crypto": "^1.0.1",
+      "moment": "^2.29.1",
+      "mz": "^2.7.0",
+      "notistack": "^2.0.3",
+      "os": "^0.1.2",
+      "oyster": "^0.1.2",
+      "path": "^0.12.7",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "^5.0.0",
+      "typescript": "^4.4.3",
+      "web-vitals": "^1.1.2",
+      "yaml": "^1.10.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@types/bs58": "^4.0.1",
+      "@types/mz": "^2.7.4",
+      "@types/node": "^17.0.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
